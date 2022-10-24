@@ -1,0 +1,7 @@
+﻿  main.cpp
+  Player.cpp
+  Protocal.cpp
+  Server.cpp
+C:\Users\ichan\source\repos\BackYard Tales-Server\BackYard Tales-Server\Server.cpp(57,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ichan\source\repos\BackYard Tales-Server\BackYard Tales-Server\Server.cpp(68,27): warning C4018: '<': signed/unsigned mismatch
+sfml-system.lib(sfml-system-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'

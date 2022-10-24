@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>Delay.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Delay::reset_delay' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Delay::{ctor}</FUNCTION>
+    <DECORATED>??0Delay@@QEAA@M@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Delay::reset_delay</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>Delay.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Delay::delay_time' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Delay::{ctor}</FUNCTION>
+    <DECORATED>??0Delay@@QEAA@M@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Delay::delay_time</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>Delay.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Delay::started' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Delay::{ctor}</FUNCTION>
+    <DECORATED>??0Delay@@QEAA@M@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Delay::started</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

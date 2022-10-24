@@ -1,0 +1,9 @@
+﻿  EnemySpawner.cpp
+C:\Users\ichan\source\repos\BackYard Tales-Server\BackYard Tales-Server\EnemySpawner.cpp(6,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating code
+C:\Users\ichan\source\repos\BackYard Tales-Server\BackYard Tales-Server\Enemy.h(66): warning C4717: 'Enemy::getPosition': recursive on all control paths, function will cause runtime stack overflow
+  12 of 443 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BackYard Tales-Server.vcxproj -> C:\Users\ichan\source\repos\BackYard Tales-Server\x64\Release\BackYard Tales-Server.exe

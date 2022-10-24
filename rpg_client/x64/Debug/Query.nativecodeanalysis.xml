@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>Query.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Query::res' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Query::{ctor}</FUNCTION>
+    <DECORATED>??0Query@@QEAA@AEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEAUMYSQL@@@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Query::res</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>Query.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Query::row' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Query::{ctor}</FUNCTION>
+    <DECORATED>??0Query@@QEAA@AEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEAUMYSQL@@@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Query::row</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

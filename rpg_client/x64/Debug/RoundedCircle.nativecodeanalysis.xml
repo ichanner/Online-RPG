@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>RoundedCircle.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>sf::RoundedRectangleShapes::getPointCount</FUNCTION>
+    <DECORATED>?getPointCount@RoundedRectangleShapes@sf@@UEBA_KXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>RoundedCircle.cpp</FILENAME>
+      <LINE>84</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>sf::RoundedRectangleShapes::getPoint</FUNCTION>
+    <DECORATED>?getPoint@RoundedRectangleShapes@sf@@UEBA?AV?$Vector2@M@2@_K@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>Connection.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Connection::port' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Connection::{ctor}</FUNCTION>
+    <DECORATED>??0Connection@@QEAA@PEBD000I0J@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Connection::port</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>Connection.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Connection::client_flag' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Connection::{ctor}</FUNCTION>
+    <DECORATED>??0Connection@@QEAA@PEBD000I0J@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Connection::client_flag</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

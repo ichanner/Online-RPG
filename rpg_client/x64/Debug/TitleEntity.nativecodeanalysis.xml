@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>TitleEntity.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TitleEntity::time_num' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TitleEntity::{ctor}</FUNCTION>
+    <DECORATED>??0TitleEntity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TitleEntity::time_num</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>TitleEntity.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TitleEntity::toggle_value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TitleEntity::{ctor}</FUNCTION>
+    <DECORATED>??0TitleEntity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TitleEntity::toggle_value</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>TitleEntity.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TitleEntity::delay' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TitleEntity::{ctor}</FUNCTION>
+    <DECORATED>??0TitleEntity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TitleEntity::delay</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>TitleEntity.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TitleEntity::num' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TitleEntity::{ctor}</FUNCTION>
+    <DECORATED>??0TitleEntity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TitleEntity::num</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\ichan\source\repos\Rpg\Rpg\</FILEPATH>
+      <FILENAME>TitleEntity.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TitleEntity::num_2' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TitleEntity::{ctor}</FUNCTION>
+    <DECORATED>??0TitleEntity@@QEAA@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TitleEntity::num_2</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

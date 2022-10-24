@@ -1,0 +1,5 @@
+C:/Users/ichan/source/repos/BackYardTales/BackYard Tales/include/out/build/x64-Debug (default)/CMakeFiles/install/local.dir
+C:/Users/ichan/source/repos/BackYardTales/BackYard Tales/include/out/build/x64-Debug (default)/CMakeFiles/install.dir
+C:/Users/ichan/source/repos/BackYardTales/BackYard Tales/include/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/ichan/source/repos/BackYardTales/BackYard Tales/include/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/ichan/source/repos/BackYardTales/BackYard Tales/include/out/build/x64-Debug (default)/CMakeFiles/list_install_components.dir

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Rpg\Rpg\Account.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\AIPathFollow.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Animation.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Authorization.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Button.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Camera.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Character.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Chat.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ChatBox.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Checkbox.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ChildWindow.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ClickableButton.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ClickableImage.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ClickableText.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Clickable_Text.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\CloseCombatEnemy.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Collider.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Cookie.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\DataPacket.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\DownloadImage.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\EditorState.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Enemy.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\EnemyFlow.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\EnemySpawner.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\EnetNetwork.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Entity.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ErrorMessage.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ForgotAccount.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Game.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\GameState.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Goblin.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Grid.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\GUI.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Http.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Item.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Json.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Keyboard.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Label.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\LinearInterpolation.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\LocalPlayer.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Logo.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Main.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Map.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\md5.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Menu.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\MenuGUI.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Movement.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Pannel.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\PlayerFlow.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ProfileTab.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Rectangle.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Register.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\RoundedCircle.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\ScrollableCanvas.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Socket.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\StartState.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\State.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Sword.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\System.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\Text.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\TextBox.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\TimerButton.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\TitleEntity.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\TitleState.cpp" />
+    <ClCompile Include="..\..\Rpg\Rpg\UI.cpp" />
+    <ClCompile Include="dist\jsoncpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Rpg\Rpg\Account.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\AIPathFollow.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Animation.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Authorization.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Button.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Camera.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Character.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Chat.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ChatBox.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Checkbox.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ChildWindow.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ClickableButton.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ClickableImage.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ClickableText.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Clickable_Text.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\CloseCombatEnemy.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Collider.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Cookie.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\DataPacket.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\DownloadImage.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\EditorState.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Enemy.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\EnemyFlow.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\EnemySpawner.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\EnetNetwork.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Entity.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ErrorMessage.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ForgotAccount.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Game.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\GameState.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Goblin.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Grid.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\GUI.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Http.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Item.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Json.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Keyboard.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Label.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\LinearInterpolation.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\LocalPlayer.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Logo.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Map.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\md5.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Menu.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\MenuGUI.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\MenuTheme.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Movement.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Pannel.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\PlayerFlow.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ProfileTab.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Rectangle.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Register.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\resource.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\RoundedCircle.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\ScrollableCanvas.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\sfml.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Socket.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\StartState.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\State.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\stdafx.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Sword.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\System.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\Text.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\TextBox.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\TimerButton.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\TitleEntity.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\TitleState.h" />
+    <ClInclude Include="..\..\Rpg\Rpg\UI.h" />
+    <ClInclude Include="dist\json\json-forwards.h" />
+    <ClInclude Include="dist\json\json.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="oldmap.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E9CEF7D9-A4A0-473D-B6DB-053FC5089A14}</ProjectGuid>
+    <RootNamespace>BackYardTales</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\Connector C++ 1.1\include;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\SFML-2.5.1\include;C:\src;C:\Users\ichan\source\repos\BackYardTales\BackYard Tales\include;C:\curl-7.71.1\x64 Debug\include;C:\Users\ichan\source\repos\TGUI-0.8\include</AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\Connector C++ 1.1\lib\opt;C:\Program Files\MySQL\MySQL Server 8.0\lib;C:\SFML-2.5.1\lib;C:\Users\ichan\source\repos\TGUI-0.8\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;C:\curl-7.71.1\x64 Debug\lib\libcurl_a_debug.lib;tgui-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\Connector C++ 1.1\include;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\SFML-2.5.1\include;C:\Users\ichan\source\repos\TGUI-0.8\include;C:\Users\ichan\source\repos\BackYardTales\BackYard Tales\include;C:\curl-7.71.1\x64 Release\include;C:\enet-1.3.15\enet;C:\cereal-master\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\Connector C++ 1.1\lib\opt;C:\Program Files\MySQL\MySQL Server 8.0\lib;C:\SFML-2.5.1\lib;C:\Users\ichan\source\repos\TGUI-0.8\lib;C:\enet-1.3.15;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-network.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;C:\curl-7.71.1\x64 Release\lib\libcurl_a.lib;tgui.lib;enet64.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+      <LinkErrorReporting>PromptImmediately</LinkErrorReporting>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

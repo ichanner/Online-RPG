@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{601d7899-2d73-485d-b696-ead792133060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{5aab2cef-f383-4c86-b2f1-d882e8b9643e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{bf1ee41d-4c33-4a57-981a-a15eb7fafcd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dump">
+      <UniqueIdentifier>{c70937e6-dbac-4d1e-a460-7971d323775a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI">
+      <UniqueIdentifier>{d585e6fd-4973-4f43-ab92-21ab2ca8c928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ICO">
+      <UniqueIdentifier>{ddb227f2-ee8e-4c83-b414-a0dd68180239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{6e3f968a-3942-4c26-a179-be92506f1168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{50839c0d-f13f-4a5a-9f59-891d4110de93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{0c793118-796a-440b-9731-5b88c0dfdbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI">
+      <UniqueIdentifier>{82203a4e-b0c6-4daf-a36e-fe2092a44626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DevStuff">
+      <UniqueIdentifier>{bad2a4ac-45ac-4e81-94e1-eb043d3bafbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Menu">
+      <UniqueIdentifier>{1d73e6ba-5e0a-49e5-bc24-71839c853fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Menu">
+      <UniqueIdentifier>{6e8f8c9b-eb14-460d-ad94-4603eb72238a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{2ce41450-b09f-4bd2-bf21-748652e88926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{ecbc722d-e284-4576-9938-cc2f3fb8a16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Engine">
+      <UniqueIdentifier>{958f3c04-be30-493b-b1a2-4954ddeb38dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Game">
+      <UniqueIdentifier>{e8769672-b36b-4853-9bdf-954690daf780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Json">
+      <UniqueIdentifier>{338cfcdb-6124-4b24-a22f-1840688443b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Entities">
+      <UniqueIdentifier>{4d43d099-38a0-49c2-975c-5e6e0a44943d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dump">
+      <UniqueIdentifier>{377932f3-07ab-4cff-96f2-0b9898bf531b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{d321b358-f7ea-4382-bdcf-a2b8fa35335f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{5ef19722-0d2f-4cab-ac14-b689eb75b0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Encrypt">
+      <UniqueIdentifier>{c4df1a07-d114-4dfe-8e1f-366a79062323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{22cca8f0-9f99-465a-bc57-8a9bd4548701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Objects">
+      <UniqueIdentifier>{f790fbbb-8009-46ba-a233-b2bb8285f53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Objects">
+      <UniqueIdentifier>{56cf743c-f273-4611-9f37-3ce4c56f1b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dump\Resources">
+      <UniqueIdentifier>{3608bae0-6351-40a1-bd15-11e4e987c84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dump\Resources\Engine">
+      <UniqueIdentifier>{0fac34d1-d90a-4742-a297-87a3fc32a299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dump\Resources">
+      <UniqueIdentifier>{11da3f44-c8e6-4414-8ddd-49fac72fad9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Game\Physics">
+      <UniqueIdentifier>{fb9172b9-7903-4e63-a7c4-cb0a38549ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Game\Visuals">
+      <UniqueIdentifier>{e51af5a6-7832-4ef6-9fa3-e87806f123ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Game\Entities">
+      <UniqueIdentifier>{03042bc3-d097-49dc-b35c-d7294b2ccd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource">
+      <UniqueIdentifier>{7ebca7ee-3af7-46eb-9714-36a82faac673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Game">
+      <UniqueIdentifier>{75852ed9-8b3a-4ddd-af34-a28463a3b63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Game\Entities">
+      <UniqueIdentifier>{f0bf0c2d-da50-469a-9dc3-494d81fc0ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Game\Visuals">
+      <UniqueIdentifier>{301df041-7677-43c1-8baf-9e204b15823b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Game\Physics">
+      <UniqueIdentifier>{ce4f2277-cc80-4933-ac70-1e85a1ccd4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Json">
+      <UniqueIdentifier>{64b6279c-bfb7-4411-b8ea-f360047f766a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Entities">
+      <UniqueIdentifier>{bf767680-9ae4-445c-9854-63fade18710f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Encrypt">
+      <UniqueIdentifier>{49336e04-f382-4902-9356-9f759dfd1efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource\Game\Entities\Items">
+      <UniqueIdentifier>{2b0f5103-8044-4899-8799-cffee9411eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource\Game\Entities\Items">
+      <UniqueIdentifier>{e234b453-2ff2-42e5-8391-79205e0b73bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Rpg\Rpg\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\StartState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\TitleState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Character.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Cookie.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Register.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\State.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Text.cpp">
+      <Filter>Source Files\Dump\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Http.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Game.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\DataPacket.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\MenuGUI.cpp">
+      <Filter>Source Files\Graphics\GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Menu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Authorization.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="dist\jsoncpp.cpp">
+      <Filter>Source Files\Resource\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Logo.cpp">
+      <Filter>Source Files\Resource\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\TitleEntity.cpp">
+      <Filter>Source Files\Resource\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Json.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\System.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\md5.cpp">
+      <Filter>Source Files\Resource\Encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\DownloadImage.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\UI.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Pannel.cpp">
+      <Filter>Source Files\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Keyboard.cpp">
+      <Filter>Source Files\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\GUI.cpp">
+      <Filter>Source Files\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ClickableImage.cpp">
+      <Filter>Source Files\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Clickable_Text.cpp">
+      <Filter>Source Files\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ScrollableCanvas.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\TextBox.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ClickableButton.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Grid.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Label.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Checkbox.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ForgotAccount.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ChildWindow.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ProfileTab.cpp">
+      <Filter>Source Files\Graphics\GUI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ErrorMessage.cpp">
+      <Filter>Source Files\Graphics\GUI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\TimerButton.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ClickableText.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\GameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Account.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Button.cpp">
+      <Filter>Source Files\Graphics\GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\RoundedCircle.cpp">
+      <Filter>Source Files\Dump\Resources\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Rectangle.cpp">
+      <Filter>Source Files\Dump\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\EnetNetwork.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\PlayerFlow.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Movement.cpp">
+      <Filter>Source Files\Resource\Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Animation.cpp">
+      <Filter>Source Files\Resource\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\LocalPlayer.cpp">
+      <Filter>Source Files\Resource\Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\LinearInterpolation.cpp">
+      <Filter>Source Files\Resource\Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Collider.cpp">
+      <Filter>Source Files\Resource\Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Chat.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\ChatBox.cpp">
+      <Filter>Source Files\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Camera.cpp">
+      <Filter>Source Files\Resource\Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Socket.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Item.cpp">
+      <Filter>Source Files\Resource\Game\Entities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Sword.cpp">
+      <Filter>Source Files\Resource\Game\Entities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Map.cpp">
+      <Filter>Source Files\Resource\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\EditorState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rpg\Rpg\Entity.cpp">
+      <Filter>Source Files\Resource\Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SFML-Box2D-Tutorials-master\SFML\Tutorial 013 - Pixel Perfect Collision Detection\Collision.cpp">
+      <Filter>Source Files\Resource\Game\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Rpg\Rpg\resource.h">
+      <Filter>Resource Files\ICO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Cookie.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\sfml.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Character.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\TitleState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\StartState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Register.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Rectangle.h">
+      <Filter>Header Files\Dump\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\RoundedCircle.h">
+      <Filter>Header Files\Dump\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\MenuTheme.h">
+      <Filter>Header Files\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Text.h">
+      <Filter>Header Files\Dump\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Http.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Game.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Socket.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\DataPacket.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\MenuGUI.h">
+      <Filter>Header Files\Graphics\GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Menu.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Authorization.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Logo.h">
+      <Filter>Header Files\Resource\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\TitleEntity.h">
+      <Filter>Header Files\Resource\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="dist\json\json.h">
+      <Filter>Header Files\Resource\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="dist\json\json-forwards.h">
+      <Filter>Header Files\Resource\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Json.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\System.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\md5.h">
+      <Filter>Header Files\Resource\Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\DownloadImage.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Pannel.h">
+      <Filter>Header Files\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Keyboard.h">
+      <Filter>Header Files\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\GUI.h">
+      <Filter>Header Files\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\UI.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ClickableImage.h">
+      <Filter>Header Files\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Clickable_Text.h">
+      <Filter>Header Files\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ScrollableCanvas.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\TextBox.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ClickableButton.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Grid.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Label.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Checkbox.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ForgotAccount.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ChildWindow.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ProfileTab.h">
+      <Filter>Header Files\Graphics\GUI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ErrorMessage.h">
+      <Filter>Header Files\Graphics\GUI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\TimerButton.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ClickableText.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Account.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\stdafx.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Button.h">
+      <Filter>Header Files\Graphics\GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\EnetNetwork.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\PlayerFlow.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\LocalPlayer.h">
+      <Filter>Header Files\Resource\Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Entity.h">
+      <Filter>Header Files\Resource\Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Animation.h">
+      <Filter>Header Files\Resource\Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Movement.h">
+      <Filter>Header Files\Resource\Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\LinearInterpolation.h">
+      <Filter>Header Files\Resource\Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Collider.h">
+      <Filter>Header Files\Resource\Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Chat.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\ChatBox.h">
+      <Filter>Header Files\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Map.h">
+      <Filter>Header Files\Resource\Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Camera.h">
+      <Filter>Header Files\Resource\Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Item.h">
+      <Filter>Header Files\Resource\Game\Entities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\Sword.h">
+      <Filter>Header Files\Resource\Game\Entities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Rpg\Rpg\EditorState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SFML-Box2D-Tutorials-master\SFML\Tutorial 013 - Pixel Perfect Collision Detection\Collision.hpp">
+      <Filter>Header Files\Resource\Game\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt">
+      <Filter>Resource Files\DevStuff</Filter>
+    </Text>
+    <Text Include="oldmap.txt">
+      <Filter>Resource Files\DevStuff</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

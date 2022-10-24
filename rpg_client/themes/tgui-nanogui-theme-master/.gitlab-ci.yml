@@ -1,0 +1,17 @@
+image: python:3.7
+
+before_script:
+  - apt-get update
+  - apt-get install zip
+
+build:
+  stage: build
+  script:
+    - git clone https://gitlab.com/rubenwardy/tgui-theme-builder
+    - tgui-theme-builder/build.sh nanogui.style
+    - mv build/theme.zip theme.zip
+  artifacts:
+    paths:
+    - theme.zip
+  only:
+    - master
